@@ -1,32 +1,43 @@
-Insurance Risk Analysis using SQL and Python
+# Insurance Risk Analysis using SQL and Python
 
-Project Overview
+## Project Overview
 
 This project analyzes customer insurance data using Python and SQL to identify high-risk and high-premium customers.
 
-Technologies Used
+##  Technologies Used
 
 * Python (Pandas, Matplotlib)
-* SQLite (SQL queries)
+* SQLite (SQL Queries)
 * Data Analysis
 
-Features
+## Features
 
 * Data cleaning and preprocessing
 * SQL-based analysis
 * Identification of high-risk customers
-* Data visualization
+* Data visualization using graphs
 
-How to Run
+##  How to Run
 
-1. Install required libraries:
+1. Install dependencies:
    pip install pandas matplotlib
 
-2. Run the script:
+2. Run the project:
    python main.py
 
-📈 Output
+##  Output
 
- Average premium calculation
-* High-risk and high-premium customer identification
+* Average premium calculation
+* High-risk and high-premium customers
 * Visualization graph
+
+##  Files
+
+* main.py → Main code
+* Insurance.csv → Dataset
+* insurance.db → Database
+
+##  Future Improvements
+
+* Add machine learning model for prediction
+* Use larger real-world datasets
